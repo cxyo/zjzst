@@ -286,8 +286,6 @@ class FundChartGenerator:
         '5G': '515050',
         '机器人': '562500',
         '人工智能': '515980',
-        '卫星航天': '159206',
-        '黄金': '518880'
     }
 
     ALTERNATIVE_FUND_CONFIG = {
@@ -296,8 +294,6 @@ class FundChartGenerator:
         '5G': '008087',
         '机器人': '018345',
         '人工智能': '008021',
-        '卫星航天': '015790',
-        '黄金': '000217'
     }
 
     def __init__(self, use_alternative: bool = True):
